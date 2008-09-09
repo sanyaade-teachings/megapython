@@ -4,8 +4,7 @@
 
 Most of the code in these directories is runnable by simply typing:
 
-make clean
-make
+make clean;make
 
 
 
