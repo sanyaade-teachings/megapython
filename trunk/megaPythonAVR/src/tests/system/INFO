@@ -1,0 +1,5 @@
+t026 (various builtin tests) fails, for some reason
+t090, the timer lib functions, fails (did I unimplement this?)
+t102, import_from, fails, for some reason I don't know
+t104, which should test the heap, fails, probably during the large range allocation
+t113 was never ran

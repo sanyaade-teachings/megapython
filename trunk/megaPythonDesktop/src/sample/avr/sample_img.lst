@@ -1,0 +1,206 @@
+   1               		.file	"sample_img.c"
+   2               		.arch atmega103
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  11               		.text
+  12               	.Ltext0:
+  35               	.global	usrlib_img
+  36               		.section	.progmem.data,"a",@progbits
+  39               	usrlib_img:
+  40 0000 0A        		.byte	10
+  41 0001 AF        		.byte	-81
+  42 0002 00        		.byte	0
+  43 0003 00        		.byte	0
+  44 0004 02        		.byte	2
+  45 0005 00        		.byte	0
+  46 0006 04        		.byte	4
+  47 0007 05        		.byte	5
+  48 0008 03        		.byte	3
+  49 0009 07        		.byte	7
+  50 000a 00        		.byte	0
+  51 000b 5F        		.byte	95
+  52 000c 5F        		.byte	95
+  53 000d 64        		.byte	100
+  54 000e 6F        		.byte	111
+  55 000f 63        		.byte	99
+  56 0010 5F        		.byte	95
+  57 0011 5F        		.byte	95
+  58 0012 03        		.byte	3
+  59 0013 03        		.byte	3
+  60 0014 00        		.byte	0
+  61 0015 61        		.byte	97
+  62 0016 76        		.byte	118
+  63 0017 72        		.byte	114
+  64 0018 03        		.byte	3
+  65 0019 04        		.byte	4
+  66 001a 00        		.byte	0
+  67 001b 69        		.byte	105
+  68 001c 6E        		.byte	110
+  69 001d 69        		.byte	105
+  70 001e 74        		.byte	116
+  71 001f 03        		.byte	3
+  72 0020 04        		.byte	4
+  73 0021 00        		.byte	0
+  74 0022 6D        		.byte	109
+  75 0023 61        		.byte	97
+  76 0024 69        		.byte	105
+  77 0025 6E        		.byte	110
+  78 0026 03        		.byte	3
+  79 0027 06        		.byte	6
+  80 0028 00        		.byte	0
+  81 0029 73        		.byte	115
+  82 002a 61        		.byte	97
+  83 002b 6D        		.byte	109
+  84 002c 70        		.byte	112
+  85 002d 6C        		.byte	108
+  86 002e 65        		.byte	101
+  87 002f 04        		.byte	4
+  88 0030 05        		.byte	5
+  89 0031 00        		.byte	0
+  90 0032 01        		.byte	1
+  91 0033 FF        		.byte	-1
+  92 0034 FF        		.byte	-1
+  93 0035 FF        		.byte	-1
+  94 0036 FF        		.byte	-1
+  95 0037 00        		.byte	0
+  96 0038 0B        		.byte	11
+  97 0039 00        		.byte	0
+  98 003a FF        		.byte	-1
+  99 003b FF        		.byte	-1
+ 100 003c 0A        		.byte	10
+ 101 003d 44        		.byte	68
+ 102 003e 00        		.byte	0
+ 103 003f 00        		.byte	0
+ 104 0040 02        		.byte	2
+ 105 0041 00        		.byte	0
+ 106 0042 04        		.byte	4
+ 107 0043 04        		.byte	4
+ 108 0044 03        		.byte	3
+ 109 0045 04        		.byte	4
+ 110 0046 00        		.byte	0
+ 111 0047 69        		.byte	105
+ 112 0048 6E        		.byte	110
+ 113 0049 69        		.byte	105
+ 114 004a 74        		.byte	116
+ 115 004b 03        		.byte	3
+ 116 004c 03        		.byte	3
+ 117 004d 00        		.byte	0
+ 118 004e 61        		.byte	97
+ 119 004f 76        		.byte	118
+ 120 0050 72        		.byte	114
+ 121 0051 03        		.byte	3
+ 122 0052 05        		.byte	5
+ 123 0053 00        		.byte	0
+ 124 0054 70        		.byte	112
+ 125 0055 6F        		.byte	111
+ 126 0056 72        		.byte	114
+ 127 0057 74        		.byte	116
+ 128 0058 41        		.byte	65
+ 129 0059 03        		.byte	3
+ 130 005a 04        		.byte	4
+ 131 005b 00        		.byte	0
+ 132 005c 6D        		.byte	109
+ 133 005d 61        		.byte	97
+ 134 005e 69        		.byte	105
+ 135 005f 6E        		.byte	110
+ 136 0060 04        		.byte	4
+ 137 0061 02        		.byte	2
+ 138 0062 00        		.byte	0
+ 139 0063 01        		.byte	1
+ 140 0064 AA        		.byte	-86
+ 141 0065 00        		.byte	0
+ 142 0066 00        		.byte	0
+ 143 0067 00        		.byte	0
+ 144 0068 74        		.byte	116
+ 145 0069 00        		.byte	0
+ 146 006a 00        		.byte	0
+ 147 006b 83        		.byte	-125
+ 148 006c 00        		.byte	0
+ 149 006d 00        		.byte	0
+ 150 006e 01        		.byte	1
+ 151 006f 74        		.byte	116
+ 152 0070 01        		.byte	1
+ 153 0071 00        		.byte	0
+ 154 0072 69        		.byte	105
+ 155 0073 02        		.byte	2
+ 156 0074 00        		.byte	0
+ 157 0075 64        		.byte	100
+ 158 0076 01        		.byte	1
+ 159 0077 00        		.byte	0
+ 160 0078 83        		.byte	-125
+ 161 0079 01        		.byte	1
+ 162 007a 00        		.byte	0
+ 163 007b 01        		.byte	1
+ 164 007c 64        		.byte	100
+ 165 007d 00        		.byte	0
+ 166 007e 00        		.byte	0
+ 167 007f 53        		.byte	83
+ 168 0080 64        		.byte	100
+ 169 0081 00        		.byte	0
+ 170 0082 00        		.byte	0
+ 171 0083 5A        		.byte	90
+ 172 0084 00        		.byte	0
+ 173 0085 00        		.byte	0
+ 174 0086 64        		.byte	100
+ 175 0087 01        		.byte	1
+ 176 0088 00        		.byte	0
+ 177 0089 64        		.byte	100
+ 178 008a 02        		.byte	2
+ 179 008b 00        		.byte	0
+ 180 008c 6B        		.byte	107
+ 181 008d 01        		.byte	1
+ 182 008e 00        		.byte	0
+ 183 008f 5A        		.byte	90
+ 184 0090 01        		.byte	1
+ 185 0091 00        		.byte	0
+ 186 0092 64        		.byte	100
+ 187 0093 03        		.byte	3
+ 188 0094 00        		.byte	0
+ 189 0095 84        		.byte	-124
+ 190 0096 00        		.byte	0
+ 191 0097 00        		.byte	0
+ 192 0098 5A        		.byte	90
+ 193 0099 02        		.byte	2
+ 194 009a 00        		.byte	0
+ 195 009b 64        		.byte	100
+ 196 009c 04        		.byte	4
+ 197 009d 00        		.byte	0
+ 198 009e 84        		.byte	-124
+ 199 009f 00        		.byte	0
+ 200 00a0 00        		.byte	0
+ 201 00a1 5A        		.byte	90
+ 202 00a2 03        		.byte	3
+ 203 00a3 00        		.byte	0
+ 204 00a4 65        		.byte	101
+ 205 00a5 03        		.byte	3
+ 206 00a6 00        		.byte	0
+ 207 00a7 83        		.byte	-125
+ 208 00a8 00        		.byte	0
+ 209 00a9 00        		.byte	0
+ 210 00aa 01        		.byte	1
+ 211 00ab 64        		.byte	100
+ 212 00ac 02        		.byte	2
+ 213 00ad 00        		.byte	0
+ 214 00ae 53        		.byte	83
+ 215 00af 00        		.byte	0
+ 217               		.text
+ 219               	Letext:
+ 220               	/* File "sample_img.c": code    0 = 0x0000 (   0), prologues   0, epilogues   0 */
+DEFINED SYMBOLS
+                            *ABS*:00000000 sample_img.c
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:3      *ABS*:0000003f __SREG__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:4      *ABS*:0000003e __SP_H__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:5      *ABS*:0000003d __SP_L__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:39     .progmem.data:00000000 usrlib_img
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//cc7pMVWf.s:219    .text:00000000 Letext
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
