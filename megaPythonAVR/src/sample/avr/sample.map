@@ -1,0 +1,1298 @@
+Archive member included because of file (symbol)
+
+../../vm/libpmvm.a(global.o)  sample_nat.o (gVmGlobal)
+../../vm/libpmvm.a(heap.o)    ../../vm/libpmvm.a(global.o) (heap_freeChunk)
+../../vm/libpmvm.a(interp.o)  ../../vm/libpmvm.a(global.o) (interp_addThread)
+../../vm/libpmvm.a(list.o)    ../../vm/libpmvm.a(interp.o) (list_append)
+../../vm/libpmvm.a(mem.o)     ../../vm/libpmvm.a(interp.o) (mem_getWord)
+../../vm/libpmvm.a(module.o)  ../../vm/libpmvm.a(global.o) (mod_import)
+../../vm/libpmvm.a(obj.o)     ../../vm/libpmvm.a(module.o) (obj_loadFromImg)
+../../vm/libpmvm.a(pm.o)      sample.o (pm_init)
+../../vm/libpmvm.a(seglist.o)
+                              ../../vm/libpmvm.a(list.o) (seglist_clear)
+../../vm/libpmvm.a(seq.o)     ../../vm/libpmvm.a(interp.o) (seq_getLength)
+../../vm/libpmvm.a(sli.o)     ../../vm/libpmvm.a(mem.o) (sli_memcpy)
+../../vm/libpmvm.a(slice.o)   ../../vm/libpmvm.a(interp.o) (slice_new)
+../../vm/libpmvm.a(string.o)  ../../vm/libpmvm.a(module.o) (string_compare)
+../../vm/libpmvm.a(thread.o)  ../../vm/libpmvm.a(interp.o) (thread_new)
+../../vm/libpmvm.a(tuple.o)   ../../vm/libpmvm.a(interp.o) (tuple_new)
+../../vm/libpmvm.a(pmstdlib_img.o)
+                              ../../vm/libpmvm.a(pm.o) (stdlib_img)
+../../vm/libpmvm.a(pmstdlib_nat.o)
+                              ../../vm/libpmvm.a(interp.o) (std_nat_fxn_table)
+../../vm/libpmvm.a(avr.o)     ../../vm/libpmvm.a(pm.o) (plat_init)
+../../vm/libpmvm.a(class.o)   ../../vm/libpmvm.a(interp.o) (class_create)
+../../vm/libpmvm.a(codeobj.o)
+                              ../../vm/libpmvm.a(obj.o) (co_loadFromImg)
+../../vm/libpmvm.a(dict.o)    ../../vm/libpmvm.a(global.o) (dict_new)
+../../vm/libpmvm.a(frame.o)   ../../vm/libpmvm.a(interp.o) (frame_new)
+../../vm/libpmvm.a(func.o)    ../../vm/libpmvm.a(interp.o) (func_new)
+../../vm/libpmvm.a(img.o)     ../../vm/libpmvm.a(pm.o) (img_findInMem)
+../../vm/libpmvm.a(int.o)     ../../vm/libpmvm.a(interp.o) (int_new)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+                              ../../vm/libpmvm.a(interp.o) (__mulsi3)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+                              ../../vm/libpmvm.a(interp.o) (__udivmodqi4)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+                              ../../vm/libpmvm.a(interp.o) (__divmodsi4)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o (exit)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+                              sample.o (__do_clear_bss)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o) (__udivmodsi4)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                              ../../vm/libpmvm.a(interp.o) (printf)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                              ../../vm/libpmvm.a(interp.o) (putchar)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                              ../../vm/libpmvm.a(interp.o) (puts)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                              ../../vm/libpmvm.a(int.o) (snprintf_P)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o) (vfprintf)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o) (strnlen)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o) (fputc)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o) (__iob)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o) (__prologue_saves__)
+/usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+gVmGlobal           0x34              ../../vm/libpmvm.a(global.o)
+__iob               0x6               /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+LOAD sample.o
+LOAD sample_img.o
+LOAD sample_nat.o
+LOAD ../../vm/libpmvm.a
+LOAD /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a
+LOAD /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a
+LOAD /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x92f0
+ *(.vectors)
+ .vectors       0x00000000       0x60 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000060       0x36 ../../vm/libpmvm.a(heap.o)
+ .progmem.gcc_sw_table
+                0x00000096      0x10a ../../vm/libpmvm.a(interp.o)
+ *(.progmem*)
+ .progmem.data  0x000001a0       0xb0 sample_img.o
+                0x000001a0                usrlib_img
+ .progmem.data  0x00000250      0x438 ../../vm/libpmvm.a(pmstdlib_img.o)
+                0x00000250                stdlib_img
+ .progmem.data  0x00000688        0x4 ../../vm/libpmvm.a(int.o)
+                0x0000068c                . = ALIGN (0x2)
+                0x0000068c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000068c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000068c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000068c                __ctors_start = .
+ *(.ctors)
+                0x0000068c                __ctors_end = .
+                0x0000068c                __dtors_start = .
+ *(.dtors)
+                0x0000068c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000068c        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                0x0000068c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000068c        0xc /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000698       0x20 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                0x00000698                __do_copy_data
+ .init4         0x000006b8       0x10 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+                0x000006b8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000006c8        0x8 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+ *(.init9)
+ *(.text)
+ .text          0x000006d0        0x4 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                0x000006d0                __vector_22
+                0x000006d0                __vector_1
+                0x000006d0                __vector_12
+                0x000006d0                __bad_interrupt
+                0x000006d0                __vector_6
+                0x000006d0                __vector_3
+                0x000006d0                __vector_23
+                0x000006d0                __vector_11
+                0x000006d0                __vector_13
+                0x000006d0                __vector_17
+                0x000006d0                __vector_19
+                0x000006d0                __vector_7
+                0x000006d0                __vector_5
+                0x000006d0                __vector_4
+                0x000006d0                __vector_9
+                0x000006d0                __vector_2
+                0x000006d0                __vector_21
+                0x000006d0                __vector_15
+                0x000006d0                __vector_8
+                0x000006d0                __vector_14
+                0x000006d0                __vector_10
+                0x000006d0                __vector_16
+                0x000006d0                __vector_18
+                0x000006d0                __vector_20
+ .text          0x000006d4       0x24 sample.o
+                0x000006d4                main
+ .text          0x000006f8        0x0 sample_img.o
+ .text          0x000006f8       0x20 sample_nat.o
+                0x000006f8                nat_placeholder_func
+                0x000006fe                nat_sample_init
+ .text          0x00000718      0x318 ../../vm/libpmvm.a(global.o)
+                0x000008e6                global_loadBuiltins
+                0x00000718                global_init
+                0x000009b4                global_setBuiltins
+ .text          0x00000a30      0x9aa ../../vm/libpmvm.a(heap.o)
+                0x00000a30                heap_gcPrintFreelist
+                0x00001370                heap_getChunk
+                0x000013d0                heap_gcSetAuto
+                0x00000ce2                heap_freeChunk
+                0x00000d2e                heap_getAvail
+                0x00000b32                heap_init
+                0x0000111e                heap_gcRun
+ .text          0x000013da     0x38b2 ../../vm/libpmvm.a(interp.o)
+                0x00001832                interpret
+                0x000014f0                interp_callback
+                0x0000149a                interp_addThread
+                0x0000154e                interp_callFunction
+                0x000013da                interp_reschedule
+ .text          0x00004c8c      0x6c6 ../../vm/libpmvm.a(list.o)
+                0x00004e5e                list_copy
+                0x00004d9a                list_replicate
+                0x00004ef0                list_index
+                0x00004e6a                list_setItem
+                0x00004d62                list_new
+                0x00004d06                list_insert
+                0x0000528e                list_print
+                0x00004cc6                list_getItem
+                0x00004c8c                list_append
+                0x00005026                list_storeSlice
+                0x00004eb0                list_removeIndex
+                0x000051b2                list_getSlice
+                0x00005006                list_clear
+                0x00004fa6                list_remove
+ .text          0x00005352      0x19a ../../vm/libpmvm.a(mem.o)
+                0x00005488                mem_getStringLength
+                0x00005352                mem_getWord
+                0x00005402                mem_copy
+                0x00005388                mem_getInt
+ .text          0x000054ec      0x150 ../../vm/libpmvm.a(module.o)
+                0x000054ec                mod_new
+                0x00005582                mod_import
+ .text          0x0000563c      0x512 ../../vm/libpmvm.a(obj.o)
+                0x000059b4                obj_print
+                0x0000563c                obj_loadFromImg
+                0x00005702                obj_isFalse
+                0x00005812                obj_isIn
+                0x0000577c                obj_compare
+ .text          0x00005b4e      0x16e ../../vm/libpmvm.a(pm.o)
+                0x00005bd0                pm_run
+                0x00005b4e                pm_init
+                0x00005c60                pm_vmPeriodic
+ .text          0x00005cbc      0x484 ../../vm/libpmvm.a(seglist.o)
+                0x0000600e                seglist_removeItem
+                0x00005fc2                seglist_setItem
+                0x00005de4                seglist_getItem
+                0x00005d0e                seglist_findEqual
+                0x00005f7a                seglist_appendItem
+                0x00005cbc                seglist_clear
+                0x00005f88                seglist_new
+                0x00005e36                seglist_insertItem
+ .text          0x00006140      0x29a ../../vm/libpmvm.a(seq.o)
+                0x00006348                seqiter_new
+                0x0000617e                seq_getSubscript
+                0x00006140                seq_getLength
+                0x000062c4                seqiter_getNext
+                0x000061fe                seq_compare
+ .text          0x000063da       0xae ../../vm/libpmvm.a(sli.o)
+                0x00006408                sli_strlen
+                0x0000641c                sli_strcmp
+                0x00006450                sli_strncmp
+                0x000063f4                sli_memset
+                0x000063da                sli_memcpy
+ .text          0x00006488       0xc6 ../../vm/libpmvm.a(slice.o)
+                0x00006488                slice_new
+                0x000064f2                slice_print
+ .text          0x0000654e      0x2de ../../vm/libpmvm.a(string.o)
+                0x0000654e                string_compare
+                0x00006580                string_create
+                0x0000681e                string_cacheInit
+                0x00006726                string_print
+                0x000066bc                string_newFromChar
+ .text          0x0000682c       0x58 ../../vm/libpmvm.a(thread.o)
+                0x0000682c                thread_new
+ .text          0x00006884      0x3a6 ../../vm/libpmvm.a(tuple.o)
+                0x000069f8                tuple_getItem
+                0x00006b94                tuple_print
+                0x000068ce                tuple_loadFromImg
+                0x00006a40                tuple_getSlice
+                0x00006884                tuple_new
+                0x0000693e                tuple_copy
+ .text          0x00006c2a        0x0 ../../vm/libpmvm.a(pmstdlib_img.o)
+ .text          0x00006c2a      0xd04 ../../vm/libpmvm.a(pmstdlib_nat.o)
+                0x00007036                nat___bi_pow
+                0x00007886                nat_thread_unlock
+                0x000077c0                nat_sys_print_vm_state
+                0x00006c2a                nat___bi_abs
+                0x0000709c                nat___bi_range
+                0x0000789e                nat_avr_portA
+                0x00007494                nat___bi_type
+                0x00007360                nat___bi_list
+                0x00006cc0                nat___bi_chr
+                0x00007672                nat_sys_heap
+                0x000077ce                nat_sys_registerCallback
+                0x00006e6a                nat___bi_globals
+                0x0000771c                nat_sys_putb
+                0x00007610                nat_sys_getb
+                0x0000786c                nat_thread_lock
+                0x0000757e                nat___bi_set_type
+                0x00007852                nat_thread_wait
+                0x00007758                nat_sys_time
+                0x0000781c                nat_thread_spawn
+                0x00007278                nat___bi_sum
+                0x00006fc2                nat___bi_ord
+                0x00006ef4                nat___bi_len
+                0x00007500                nat___bi_Co
+                0x00006f9a                nat___bi_locals
+                0x000075da                nat_sys_exit
+                0x00006e92                nat___bi_id
+                0x00006d3a                nat___bi_eval
+ .text          0x0000792e       0xea ../../vm/libpmvm.a(avr.o)
+                0x000079dc                plat_putByte
+                0x00007a16                plat_reportError
+                0x0000792e                plat_USART_init
+                0x000079f0                plat_getMsTicks
+                0x0000794a                plat_init
+                0x000079b0                plat_getByte
+                0x00007958                plat_memGetByte
+ .text          0x00007a18      0x272 ../../vm/libpmvm.a(class.o)
+                0x00007a70                class_newMethod
+                0x00007aba                class_newInstance
+                0x00007a18                class_create
+ .text          0x00007c8a      0x1aa ../../vm/libpmvm.a(codeobj.o)
+                0x00007c8a                co_loadFromImg
+                0x00007d98                no_loadFromImg
+ .text          0x00007e34      0x47a ../../vm/libpmvm.a(dict.o)
+                0x000080e4                dict_print
+                0x00008040                dict_removeItem
+                0x00007e6e                dict_clear
+                0x00007e34                dict_new
+                0x00007ebc                dict_setItem
+                0x000081e0                dict_update
+                0x00007fb0                dict_getItem
+ .text          0x000082ae      0x132 ../../vm/libpmvm.a(frame.o)
+                0x000082ae                frame_new
+ .text          0x000083e0      0x1e6 ../../vm/libpmvm.a(func.o)
+                0x0000849e                class_new
+                0x000083e0                func_new
+ .text          0x000085c6      0x18a ../../vm/libpmvm.a(img.o)
+                0x000085c6                img_getName
+                0x0000863a                img_findInMem
+ .text          0x00008750      0x336 ../../vm/libpmvm.a(int.o)
+                0x0000899a                _int_printHex
+                0x0000888e                int_bitInvert
+                0x000088c0                int_print
+                0x00008856                int_negative
+                0x00008968                int_printHexByte
+                0x00008a00                int_pow
+                0x00008830                int_positive
+                0x00008750                int_dup
+                0x000089f0                int_printHex
+                0x00008798                int_new
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+ .text          0x00008a86        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+ .text          0x00008a86       0x32 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                0x00008a86                printf
+ .text          0x00008ab8        0xe /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                0x00008ab8                putchar
+ .text          0x00008ac6       0x78 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                0x00008ac6                puts
+ .text          0x00008b3e       0x6a /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                0x00008b3e                snprintf_P
+ .text          0x00008ba8      0x4aa /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                0x00008ba8                vfprintf
+ .text          0x00009052       0x1a /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+                0x00009052                strnlen_P
+ .text          0x0000906c       0x18 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+                0x0000906c                strnlen
+ .text          0x00009084       0x60 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                0x00009084                fputc
+ .text          0x000090e4        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+ .text          0x000090e4       0xc8 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+                0x000090e4                __ultoa_invert
+ .text          0x000091ac        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+ .text          0x000091ac        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+                0x000091ac                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000091ac       0x36 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+                0x000091ac                __mulsi3
+ .text.libgcc   0x000091e2       0x18 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+                0x000091e2                __udivmodqi4
+ .text.libgcc   0x000091fa       0x36 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+                0x000091fa                __divmodsi4
+ .text.libgcc   0x00009230        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+ .text.libgcc   0x00009230        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00009230       0x4e /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+                0x00009230                __udivmodsi4
+ .text.libgcc   0x0000927e       0x38 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+                0x0000927e                __prologue_saves__
+ .text.libgcc   0x000092b6       0x38 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+                0x000092b6                __epilogue_restores__
+                0x000092ee                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000092ee        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+                0x000092ee                exit
+                0x000092ee                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000092ee        0x2 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000092f0                _etext = .
+
+.data           0x00800060       0x86 load address 0x000092f0
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+ .data          0x00800060        0x7 sample.o
+ .data          0x00800067        0x0 sample_img.o
+ .data          0x00800067        0x4 sample_nat.o
+                0x00800067                usr_nat_fxn_table
+ .data          0x0080006b       0x11 ../../vm/libpmvm.a(global.o)
+                0x00800070                global_bistr
+ .data          0x0080007c        0x0 ../../vm/libpmvm.a(heap.o)
+ .data          0x0080007c       0x1c ../../vm/libpmvm.a(interp.o)
+ .data          0x00800098        0x0 ../../vm/libpmvm.a(list.o)
+ .data          0x00800098        0x0 ../../vm/libpmvm.a(mem.o)
+ .data          0x00800098        0x0 ../../vm/libpmvm.a(module.o)
+ .data          0x00800098        0x5 ../../vm/libpmvm.a(obj.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(pm.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(seglist.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(seq.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(sli.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(slice.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(string.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(thread.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(tuple.o)
+ .data          0x0080009d        0x0 ../../vm/libpmvm.a(pmstdlib_img.o)
+ .data          0x0080009d       0x36 ../../vm/libpmvm.a(pmstdlib_nat.o)
+                0x0080009d                std_nat_fxn_table
+ .data          0x008000d3        0x0 ../../vm/libpmvm.a(avr.o)
+ .data          0x008000d3        0x9 ../../vm/libpmvm.a(class.o)
+ .data          0x008000dc        0x0 ../../vm/libpmvm.a(codeobj.o)
+ .data          0x008000dc        0x0 ../../vm/libpmvm.a(dict.o)
+ .data          0x008000dc        0x0 ../../vm/libpmvm.a(frame.o)
+ .data          0x008000dc        0xa ../../vm/libpmvm.a(func.o)
+ .data          0x008000e6        0x0 ../../vm/libpmvm.a(img.o)
+ .data          0x008000e6        0x0 ../../vm/libpmvm.a(int.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+ .data          0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008000e6                . = ALIGN (0x2)
+                0x008000e6                _edata = .
+                0x008000e6                PROVIDE (__data_end, .)
+
+.bss            0x008000e6      0x44e load address 0x00009376
+                0x008000e6                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000e6        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+ .bss           0x008000e6        0x0 sample.o
+ .bss           0x008000e6        0x0 sample_img.o
+ .bss           0x008000e6        0x0 sample_nat.o
+ .bss           0x008000e6        0x0 ../../vm/libpmvm.a(global.o)
+ .bss           0x008000e6      0x406 ../../vm/libpmvm.a(heap.o)
+ .bss           0x008004ec        0x2 ../../vm/libpmvm.a(interp.o)
+ .bss           0x008004ee        0x0 ../../vm/libpmvm.a(list.o)
+ .bss           0x008004ee        0x0 ../../vm/libpmvm.a(mem.o)
+ .bss           0x008004ee        0x0 ../../vm/libpmvm.a(module.o)
+ .bss           0x008004ee        0x0 ../../vm/libpmvm.a(obj.o)
+ .bss           0x008004ee        0xa ../../vm/libpmvm.a(pm.o)
+                0x008004ee                pm_lastRescheduleTimestamp
+                0x008004f2                pm_timerMsTicks
+ .bss           0x008004f8        0x0 ../../vm/libpmvm.a(seglist.o)
+ .bss           0x008004f8        0x0 ../../vm/libpmvm.a(seq.o)
+ .bss           0x008004f8        0x0 ../../vm/libpmvm.a(sli.o)
+ .bss           0x008004f8        0x0 ../../vm/libpmvm.a(slice.o)
+ .bss           0x008004f8        0x2 ../../vm/libpmvm.a(string.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(thread.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(tuple.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(pmstdlib_img.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(pmstdlib_nat.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(avr.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(class.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(codeobj.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(dict.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(frame.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(func.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(img.o)
+ .bss           0x008004fa        0x0 ../../vm/libpmvm.a(int.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+ .bss           0x008004fa        0x0 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008004fa       0x34 ../../vm/libpmvm.a(global.o)
+                0x008004fa                gVmGlobal
+ COMMON         0x0080052e        0x6 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                0x0080052e                __iob
+                0x00800534                PROVIDE (__bss_end, .)
+                0x000092f0                __data_load_start = LOADADDR (.data)
+                0x00009376                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800534        0x0
+                0x00800534                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800534                PROVIDE (__noinit_end, .)
+                0x00800534                _end = .
+                0x00800534                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x1a94
+ *(.stab)
+ .stab          0x00000000      0x774 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+ .stab          0x00000774      0x960 sample.o
+                                0x96c (size before relaxing)
+ .stab          0x000010d4      0x12c sample_img.o
+                                0x138 (size before relaxing)
+ .stab          0x00001200      0x2c4 sample_nat.o
+                                0x984 (size before relaxing)
+ .stab          0x000014c4       0x9c /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00001560       0x9c /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x000015fc      0x498 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+                                0x4a4 (size before relaxing)
+
+.stabstr        0x00000000     0x3167
+ *(.stabstr)
+ .stabstr       0x00000000     0x3167 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x78
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .debug_aranges
+                0x00000014       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .debug_aranges
+                0x00000028       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .debug_aranges
+                0x0000003c       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .debug_aranges
+                0x00000050       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .debug_aranges
+                0x00000064       0x14 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+
+.debug_pubnames
+                0x00000000       0xce
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1d /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .debug_pubnames
+                0x0000001d       0x1e /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .debug_pubnames
+                0x0000003b       0x1b /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .debug_pubnames
+                0x00000056       0x21 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .debug_pubnames
+                0x00000077       0x1f /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .debug_pubnames
+                0x00000096       0x1c /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .debug_pubnames
+                0x000000b2       0x1c /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+
+.debug_info     0x00000000      0xc9b
+ *(.debug_info)
+ .debug_info    0x00000000      0x1ac /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .debug_info    0x000001ac      0x175 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .debug_info    0x00000321      0x19e /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .debug_info    0x000004bf      0x1d1 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .debug_info    0x00000690      0x34d /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .debug_info    0x000009dd      0x16a /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .debug_info    0x00000b47      0x154 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x6d1
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x104 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .debug_abbrev  0x00000104       0xeb /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .debug_abbrev  0x000001ef      0x101 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .debug_abbrev  0x000002f0       0xf4 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .debug_abbrev  0x000003e4      0x14d /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .debug_abbrev  0x00000531       0xd9 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .debug_abbrev  0x0000060a       0xc7 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+
+.debug_line     0x00000000      0xaf0
+ *(.debug_line)
+ .debug_line    0x00000000      0x10a /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+ .debug_line    0x0000010a      0x10b /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+ .debug_line    0x00000215      0x138 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+ .debug_line    0x0000034d      0x138 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+ .debug_line    0x00000485      0x43f /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+ .debug_line    0x000008c4      0x133 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+ .debug_line    0x000009f7       0xf9 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x22e
+ *(.debug_str)
+ .debug_str     0x00000000       0xf5 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                                0x13d (size before relaxing)
+ .debug_str     0x000000f5       0x26 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                                0x128 (size before relaxing)
+ .debug_str     0x0000011b       0x20 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                                0x122 (size before relaxing)
+ .debug_str     0x0000013b       0x33 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                0x146 (size before relaxing)
+ .debug_str     0x0000016e       0x84 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                0x1bd (size before relaxing)
+ .debug_str     0x000001f2       0x22 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                                0x125 (size before relaxing)
+ .debug_str     0x00000214       0x1a /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                                0x11c (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(sample.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__bss_end                                         /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__data_load_start                                 /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__data_start                                      /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__divmodsi4                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+__do_clear_bss                                    /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_clear_bss.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(frame.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_img.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(thread.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(global.o)
+                                                  sample_nat.o
+                                                  sample_img.o
+                                                  sample.o
+__do_copy_data                                    /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(frame.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_img.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(thread.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(global.o)
+                                                  sample_nat.o
+                                                  sample_img.o
+                                                  sample.o
+__epilogue_restores__                             /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_epilogue.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+__heap_end                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__init                                            /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__iob                                             /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(iob.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+__mulsi3                                          /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_mulsi3.o)
+                                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+__prologue_saves__                                /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_prologue.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+__stack                                           /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+                                                  sample.o
+__udivmodqi4                                      /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodqi4.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+__udivmodsi4                                      /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_udivmodsi4.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_divmodsi4.o)
+__ultoa_invert                                    /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(ultoa_invert.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+__vector_1                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_10                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_11                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_12                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_13                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_14                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_15                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_16                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_17                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_18                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_19                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_2                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_20                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_21                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_22                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_23                                       /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_3                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_4                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_5                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_6                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_7                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_8                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_9                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vector_default                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+__vectors                                         /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+_exit                                             /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+_int_printHex                                     ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+class_create                                      ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+class_new                                         ../../vm/libpmvm.a(func.o)
+class_newInstance                                 ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+class_newMethod                                   ../../vm/libpmvm.a(class.o)
+co_loadFromImg                                    ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+dict_clear                                        ../../vm/libpmvm.a(dict.o)
+dict_getItem                                      ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+dict_new                                          ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+dict_print                                        ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+dict_removeItem                                   ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+dict_setItem                                      ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+dict_update                                       ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+exit                                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/avr3/libgcc.a(_exit.o)
+                                                  sample.o
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+fputc                                             /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(fputc.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+frame_new                                         ../../vm/libpmvm.a(frame.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+func_new                                          ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+gVmGlobal                                         ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(global.o)
+                                                  sample_nat.o
+global_bistr                                      ../../vm/libpmvm.a(global.o)
+global_init                                       ../../vm/libpmvm.a(global.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+global_loadBuiltins                               ../../vm/libpmvm.a(global.o)
+global_setBuiltins                                ../../vm/libpmvm.a(global.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+heap_freeChunk                                    ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+heap_gcPrintFreelist                              ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+heap_gcRun                                        ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+heap_gcSetAuto                                    ../../vm/libpmvm.a(heap.o)
+heap_getAvail                                     ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+heap_getChunk                                     ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(frame.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(thread.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+heap_init                                         ../../vm/libpmvm.a(heap.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+img_findInMem                                     ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+img_getName                                       ../../vm/libpmvm.a(img.o)
+int_bitInvert                                     ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+int_dup                                           ../../vm/libpmvm.a(int.o)
+int_negative                                      ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+int_new                                           ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+int_positive                                      ../../vm/libpmvm.a(int.o)
+int_pow                                           ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+int_print                                         ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+int_printHex                                      ../../vm/libpmvm.a(int.o)
+int_printHexByte                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+interp_addThread                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(global.o)
+interp_callFunction                               ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(class.o)
+interp_callback                                   ../../vm/libpmvm.a(interp.o)
+interp_reschedule                                 ../../vm/libpmvm.a(interp.o)
+interpret                                         ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(global.o)
+list_append                                       ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_clear                                        ../../vm/libpmvm.a(list.o)
+list_copy                                         ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_getItem                                      ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_getSlice                                     ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_index                                        ../../vm/libpmvm.a(list.o)
+list_insert                                       ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_new                                          ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+list_print                                        ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+list_remove                                       ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_removeIndex                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_replicate                                    ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_setItem                                      ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+list_storeSlice                                   ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+main                                              sample.o
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/crtm103.o
+mem_copy                                          ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(string.o)
+mem_getInt                                        ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+mem_getStringLength                               ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(string.o)
+mem_getWord                                       ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+mod_import                                        ../../vm/libpmvm.a(module.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+                                                  ../../vm/libpmvm.a(global.o)
+mod_new                                           ../../vm/libpmvm.a(module.o)
+nat___bi_Co                                       ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_abs                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_chr                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_eval                                     ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_globals                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_id                                       ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_len                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_list                                     ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_locals                                   ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_ord                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_pow                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_range                                    ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_set_type                                 ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_sum                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat___bi_type                                     ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_avr_portA                                     ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_placeholder_func                              sample_nat.o
+nat_sample_init                                   sample_nat.o
+nat_sys_exit                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_getb                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_heap                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_print_vm_state                            ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_putb                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_registerCallback                          ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_sys_time                                      ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_thread_lock                                   ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_thread_spawn                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_thread_unlock                                 ../../vm/libpmvm.a(pmstdlib_nat.o)
+nat_thread_wait                                   ../../vm/libpmvm.a(pmstdlib_nat.o)
+no_loadFromImg                                    ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+obj_compare                                       ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+obj_isFalse                                       ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+obj_isIn                                          ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+obj_loadFromImg                                   ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(module.o)
+obj_print                                         ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+plat_USART_init                                   ../../vm/libpmvm.a(avr.o)
+plat_getByte                                      ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+plat_getMsTicks                                   ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+plat_init                                         ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+plat_memGetByte                                   ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(img.o)
+                                                  ../../vm/libpmvm.a(frame.o)
+                                                  ../../vm/libpmvm.a(codeobj.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(mem.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+plat_putByte                                      ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(int.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(list.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+plat_reportError                                  ../../vm/libpmvm.a(avr.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+pm_init                                           ../../vm/libpmvm.a(pm.o)
+                                                  sample.o
+pm_lastRescheduleTimestamp                        ../../vm/libpmvm.a(pm.o)
+pm_run                                            ../../vm/libpmvm.a(pm.o)
+                                                  sample.o
+pm_timerMsTicks                                   ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(avr.o)
+pm_vmPeriodic                                     ../../vm/libpmvm.a(pm.o)
+printf                                            /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+putchar                                           /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(putchar.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+puts                                              /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(puts.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+seglist_appendItem                                ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_clear                                     ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_findEqual                                 ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+seglist_getItem                                   ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_insertItem                                ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_new                                       ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_removeItem                                ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seglist_setItem                                   ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(dict.o)
+                                                  ../../vm/libpmvm.a(list.o)
+seq_compare                                       ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+seq_getLength                                     ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+seq_getSubscript                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+seqiter_getNext                                   ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+seqiter_new                                       ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+sli_memcpy                                        ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(mem.o)
+sli_memset                                        ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(seglist.o)
+                                                  ../../vm/libpmvm.a(global.o)
+sli_strcmp                                        ../../vm/libpmvm.a(sli.o)
+sli_strlen                                        ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(mem.o)
+sli_strncmp                                       ../../vm/libpmvm.a(sli.o)
+                                                  ../../vm/libpmvm.a(string.o)
+slice_new                                         ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+slice_print                                       ../../vm/libpmvm.a(slice.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+snprintf_P                                        /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  ../../vm/libpmvm.a(int.o)
+std_nat_fxn_table                                 ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+stdlib_img                                        ../../vm/libpmvm.a(pmstdlib_img.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+string_cacheInit                                  ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(heap.o)
+string_compare                                    ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(module.o)
+string_create                                     ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(func.o)
+                                                  ../../vm/libpmvm.a(class.o)
+                                                  ../../vm/libpmvm.a(pm.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(global.o)
+string_newFromChar                                ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+string_print                                      ../../vm/libpmvm.a(string.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+strnlen                                           /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+strnlen_P                                         /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(strnlen_P.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+thread_new                                        ../../vm/libpmvm.a(thread.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+tuple_copy                                        ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+tuple_getItem                                     ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(seq.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+                                                  ../../vm/libpmvm.a(list.o)
+tuple_getSlice                                    ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+tuple_loadFromImg                                 ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+tuple_new                                         ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(pmstdlib_nat.o)
+                                                  ../../vm/libpmvm.a(interp.o)
+tuple_print                                       ../../vm/libpmvm.a(tuple.o)
+                                                  ../../vm/libpmvm.a(obj.o)
+usr_nat_fxn_table                                 sample_nat.o
+                                                  ../../vm/libpmvm.a(interp.o)
+usrlib_img                                        sample_img.o
+                                                  sample.o
+vfprintf                                          /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(vfprintf_std.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(snprintf_p.o)
+                                                  /usr/local/AVRMacPack-20080721/lib/gcc/avr/3.4.6/../../../../avr/lib/avr3/libc.a(printf.o)

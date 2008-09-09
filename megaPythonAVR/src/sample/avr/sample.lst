@@ -1,0 +1,110 @@
+   1               		.file	"sample.c"
+   2               		.arch atmega103
+   3               	__SREG__ = 0x3f
+   4               	__SP_H__ = 0x3e
+   5               	__SP_L__ = 0x3d
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  11               		.text
+  12               	.Ltext0:
+ 202               		.data
+ 203               	.LC0:
+ 204 0000 7361 6D70 		.string	"sample"
+ 204      6C65 00
+ 205               		.text
+ 207               	.global	main
+ 209               	main:
+   1:sample.c      **** /*
+   2:sample.c      ****  * PyMite - A flyweight Python interpreter for 8-bit microcontrollers and more.
+   3:sample.c      ****  * Copyright 2002 Dean Hall
+   4:sample.c      ****  *
+   5:sample.c      ****  * This program is free software; you can redistribute it and/or
+   6:sample.c      ****  * modify it under the terms of the GNU General Public License
+   7:sample.c      ****  * as published by the Free Software Foundation; either version 2
+   8:sample.c      ****  * of the License, or (at your option) any later version.
+   9:sample.c      ****  *
+  10:sample.c      ****  * This program is distributed in the hope that it will be useful,
+  11:sample.c      ****  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  12:sample.c      ****  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  13:sample.c      ****  * GNU General Public License for more details.
+  14:sample.c      ****  *
+  15:sample.c      ****  * You should have received a copy of the GNU General Public License along
+  16:sample.c      ****  * with this program; if not, write to the Free Software Foundation, Inc.,
+  17:sample.c      ****  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  18:sample.c      ****  */
+  19:sample.c      **** 
+  20:sample.c      **** /**
+  21:sample.c      ****  * Sample PyMite application
+  22:sample.c      ****  *
+  23:sample.c      ****  * Log
+  24:sample.c      ****  * ---
+  25:sample.c      ****  *
+  26:sample.c      ****  * 2007/03/22   Creation
+  27:sample.c      ****  */
+  28:sample.c      **** 
+  29:sample.c      **** 
+  30:sample.c      **** #include "pm.h"
+  31:sample.c      **** 
+  32:sample.c      **** 
+  33:sample.c      **** extern unsigned char usrlib_img[];
+  34:sample.c      **** 
+  35:sample.c      **** 
+  36:sample.c      **** int main(void)
+  37:sample.c      **** {
+ 211               	.LM1:
+ 212               	/* prologue: frame size=0 */
+ 213 0000 C0E0      		ldi r28,lo8(__stack - 0)
+ 214 0002 D0E0      		ldi r29,hi8(__stack - 0)
+ 215 0004 DEBF      		out __SP_H__,r29
+ 216 0006 CDBF      		out __SP_L__,r28
+ 217               	/* prologue end (size=4) */
+  38:sample.c      ****     PmReturn_t retval;
+  39:sample.c      **** 
+  40:sample.c      ****     retval = pm_init(MEMSPACE_PROG, usrlib_img);
+ 219               	.LM2:
+ 220 0008 60E0      		ldi r22,lo8(usrlib_img)
+ 221 000a 70E0      		ldi r23,hi8(usrlib_img)
+ 222 000c 81E0      		ldi r24,lo8(1)
+ 223 000e 0E94 0000 		call pm_init
+  41:sample.c      ****     PM_RETURN_IF_ERROR(retval);
+ 225               	.LM3:
+ 226 0012 8823      		tst r24
+ 227 0014 01F4      		brne .L3
+  42:sample.c      **** 
+  43:sample.c      ****     retval = pm_run((uint8_t *)"sample");
+ 229               	.LM4:
+ 230 0016 80E0      		ldi r24,lo8(.LC0)
+ 231 0018 90E0      		ldi r25,hi8(.LC0)
+ 232 001a 0E94 0000 		call pm_run
+ 233               	.L3:
+  44:sample.c      ****     return (int)retval;
+ 235               	.LM5:
+ 236 001e 9927      		clr r25
+ 237               	/* epilogue: frame size=0 */
+ 238 0020 0C94 0000 		jmp exit
+ 239               	/* epilogue end (size=2) */
+ 240               	/* function main size 18 (12) */
+ 245               	.Lscope0:
+ 246               		.text
+ 248               	Letext:
+ 249               	/* File "sample.c": code   18 = 0x0012 (  12), prologues   4, epilogues   2 */
+DEFINED SYMBOLS
+                            *ABS*:00000000 sample.c
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:3      *ABS*:0000003f __SREG__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:4      *ABS*:0000003e __SP_H__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:5      *ABS*:0000003d __SP_L__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:209    .text:00000000 main
+/var/folders/7t/7t28RGTeFHKNgq6rN5LNOk+++TI/-Tmp-//ccFw7nnH.s:248    .text:00000024 Letext
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+__stack
+usrlib_img
+pm_init
+pm_run
+exit
